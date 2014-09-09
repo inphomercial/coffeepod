@@ -43,19 +43,19 @@ body{
 }
 .menu li a:hover ,.menu li.active a{
 	color:#2ecc71;
-} 
+}
 .toggleMenu {
-	display:  none;
-   	padding:4px 5px 0px 5px;
-    border-radius:2em; 
+    display:  none;
+    padding:4px 5px 0px 5px;
+    border-radius:2em;
     -webkit-border-radius:2em;
     -moz-border-radius:2em;
-    -o-border-radius:2em; 
+    -o-border-radius:2em;
 }
 .nav:before,
 .nav:after {
-    content: " "; 
-    display: table; 
+    content: " ";
+    display: table;
 }
 .nav:after {
     clear: both;
@@ -93,7 +93,7 @@ body{
     	top:15px;
     }
     .nav li ul{
-    	width:100%;   	
+    	width:100%;
     }
     .menu ul{
     	margin:43px 0px 0px 0px;
@@ -185,7 +185,7 @@ a#v-exchange {
 	padding:20px 0px;
 }
 .about-row-column{
-	text-align:center;	
+	text-align:center;
 }
 .about-row-column h3 a{
 	color: #fff;
@@ -202,7 +202,6 @@ a#v-exchange {
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-	
 .about-row-column p{
 	color: rgba(255, 255, 255, 0.88);
 	font-weight: 400;
@@ -421,7 +420,7 @@ ul#filters {
 	}
 	div#portfoliolist {
 		padding: 40px 0px;
-}	
+}
 	.portfolio-wrapper {
 		overflow:hidden;
 		position: relative !important;
@@ -454,13 +453,12 @@ ul#filters {
 			z-index:500;
 			padding:5px 8px;
 		}
-			
-			.portfolio .text-category {
-				display:block;
-				font-size:9px;
-				font-size: 12px;
-				text-transform:uppercase;
-			}
+		.portfolio .text-category {
+			display:block;
+			font-size:9px;
+			font-size: 12px;
+			text-transform:uppercase;
+		}
 /* Self Clearing Goodness */
 .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 .clearfix:before,
@@ -506,7 +504,6 @@ ul#filters {
 	font-size: 45px;
 	padding:0px 0px 20px 0px;
 }
-	
 .team-row-column img{
 	background:#ffffff;
 	border-radius:130px;
@@ -532,7 +529,7 @@ ul#filters {
 .team-row-column{
 	padding:0px 137px;
 	text-align: center;
-}	
+}
 .team-row-column h4 {
 	margin: 40px 0px 20px 0px;
 }
@@ -547,7 +544,6 @@ ul#filters {
 ul.social li{
 	display:inline-block;
 	margin:0px 20px 0px 0px;
-	
 }
 ul.social li i{
 	background:url(../images/img-sprite.png);
@@ -580,7 +576,6 @@ ul.social li i.ist{
 ul.social li i.ist:hover{
 	background-position:-132px -65px;
 }
-	 
 /*-- Our Team Ends Here --*/
 /*-- Contact starts Here --*/
 .contact-row{
@@ -635,12 +630,12 @@ ul.social li i.ist:hover{
 	-moz-border-radius: 3px;
 	-o-border-radius: 3px;
 	font-family: 'Droid Serif', serif;
-	font-weight: 400;	
+	font-weight: 400;
 }
 .contact_btn{
 	text-align:left;
 	padding:0px 10px;
-}	
+}
 .contact_btn input[type="submit"]{
 	border:0px;
 	background:#2ecc71;
@@ -660,7 +655,6 @@ ul.social li i.ist:hover{
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-	
 .contact-row-column .text{
 	text-align:left;
 	padding:20px 150px;
@@ -687,7 +681,7 @@ ul.social li i.ist:hover{
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
-}		
+}
 /*-- Contact Ends Here --*/
 /*-- Footer Starts Here --*/
 .footer{
@@ -711,7 +705,7 @@ ul.social li i.ist:hover{
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-	
+
 #toTop {
 	display: none;
 	text-decoration: none;
@@ -728,12 +722,11 @@ ul.social li i.ist:hover{
 p.copyright{
 	font-weight:400;
 	color:#fff;
-	font-size:15px;	
+	font-size:15px;
 }
 p.copyright a{
 	text-decoration:none;
 	color:#2ecc71;
-	
 }
 p.copyright a:hover{
 	color: #fff;
@@ -742,7 +735,7 @@ p.copyright a:hover{
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-	
+
 /*-- Footer Ends Here --*/
 /*--- Media Queries Starts Here---*/
 @media (max-width:1440px){
@@ -804,7 +797,6 @@ p.copyright a:hover{
 	#filters li span {
 		font-size: 23px;
 	}
-
 }
 @media (max-width:800px){
 	.header-matter h1 {
@@ -859,7 +851,6 @@ p.copyright a:hover{
 	}
 	.team-row-column {
 		padding: 0px 20px;
-		
 	}
 	.team-row-column img{
 		display: inline;
@@ -913,7 +904,6 @@ p.copyright a:hover{
 	}
 	.header-matter {
 	}
-	
 }
 @media (max-width:640px){
 	.header{
@@ -974,7 +964,6 @@ p.copyright a:hover{
 	.contact-row p {
 		font-size: 20px;
 	}
-	
 }
 @media (max-width:320px){
 	.header {
@@ -1083,7 +1072,6 @@ p.copyright a:hover{
 	.team-row-column h4 {
 		margin: 15px 0px 10px 0px;
 	}
-	
 }
 
 

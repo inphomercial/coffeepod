@@ -25,7 +25,7 @@ body{
 }
 .menu li a{
   	display: block;
-	font-size:18px;
+	font-size:20px;
 	color:#fff;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -490,9 +490,18 @@ ul#filters {
 /*-- Our Team Starts Here --*/
 .ourteam {
 	/* background:#2980b9; */
-	background: #243f8d;
+	/* background: #243f8d; */
+	background: #006699;
 	padding:40px 0px;
 	/* margin-top:60px; */
+}
+.subheader {
+	font-weight: 100 !important;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 26px;
+	color: #fff;
+	margin-top: -10px;
+	/* margin-bottom: 10px; */
 }
 .team-row{
 	text-align: center;
@@ -505,7 +514,7 @@ ul#filters {
 	padding:0px 0px 20px 0px;
 }
 .team-row-column img{
-	background:#ffffff;
+	/* background:#ffffff; */
 	border-radius:130px;
 	-webkit-border-radius: 130px;
 	-moz-border-radius:130px;
@@ -527,7 +536,8 @@ ul#filters {
 	transition: all 0.3s ease;
 }
 .team-row-column{
-	padding:0px 137px;
+	padding:50px 50px;
+	/* padding:0px 137px; */
 	text-align: center;
 }
 .team-row-column h4 {
@@ -540,6 +550,18 @@ ul#filters {
 	font-size:18px;
 	line-height:30px;
 	padding:0px 0px 20px 0px;
+}
+ul.coffee_list {
+	padding-left: 45px;
+}
+ul.coffee_list li{
+	color: #fff;
+	display:block;
+	font-size: 18px;
+	text-align: left;
+}
+h4.coffee_title{
+	text-align:center;
 }
 ul.social li{
 	display:inline-block;
@@ -587,7 +609,7 @@ ul.social li i.ist:hover{
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 45px;
 	color: #2c3e50;
-	padding:40px 0px;
+	padding:5px 0px;
 }
 .contact-row p{
 	font-weight: 700;
@@ -602,7 +624,7 @@ ul.social li i.ist:hover{
 	border:0px;
 	border-bottom-width:3px;
 	border-style:solid;
-	border-color:#2ecc71;
+	border-color:#66cc33;
 	width:99%;
 	outline:none;
 	padding:20px 10px 5px 10px;
@@ -617,7 +639,7 @@ ul.social li i.ist:hover{
 	border:0px;
 	border-bottom-width:3px;
 	border-style:solid;
-	border-color:#2ecc71;
+	border-color:#66cc33;
 	color: #000;
 	outline: none;
 	margin-bottom: 25px;
@@ -638,7 +660,7 @@ ul.social li i.ist:hover{
 }
 .contact_btn input[type="submit"]{
 	border:0px;
-	background:#2ecc71;
+	background:#66cc33;
 	padding:10px 20px;
 	color:#fff;
 	font-size:18px;
@@ -649,7 +671,7 @@ ul.social li i.ist:hover{
 	outline:none;
 }
 .contact_btn input[type="submit"]:hover{
-	background:#2c3e50;
+	background:#006699;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
@@ -1072,6 +1094,41 @@ p.copyright a:hover{
 	.team-row-column h4 {
 		margin: 15px 0px 10px 0px;
 	}
+}
+
+/*-- Line Star Seperator --*/
+hr.star-light,
+hr.star-primary {
+	/* margin: 25px auto 30px; */
+	padding: 0;
+	max-width: 250px;
+	border: 0;
+	border-top: solid 5px;
+	text-align: center;
+}
+hr.star-light:after,
+hr.star-primary:after {
+	content: "\f005";
+	display: inline-block;
+	position: relative;
+	top: -.8em;
+	padding: 0 .25em;
+	font-family: FontAwesome;
+	font-size: 2em;
+}
+hr.star-light {
+	border-color: #fff;
+}
+hr.star-light:after {
+	color: #fff;
+	background-color: #006699;
+}
+hr.star-primary {
+	border-color: #2c3e50;
+}
+hr.star-primary:after {
+	color: #2c3e50;
+	background-color: #fff;
 }
 
 

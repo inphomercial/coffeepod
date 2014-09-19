@@ -7,86 +7,46 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Kramel Bootstrap Website Template | Home :: w3layouts</title>
+<title>Provo's Coffee Pod</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-<link href="css/gallery.css" rel="stylesheet" type="text/css" media="all" />
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="js/jquery.min.js"></script>
 <script src="js/hover_pack.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
    	<script type="text/javascript">
 		jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){
+			$(".scroll").click(function(event){
 				event.preventDefault();
 				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
 			});
 		});
 	</script>
 	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-	<script type="text/javascript">
-	$(function () {
-		
-		var filterList = {
-		
-			init: function () {
-			
-				// MixItUp plugin
-				// http://mixitup.io
-				$('#portfoliolist').mixitup({
-					targetSelector: '.portfolio',
-					filterSelector: '.filter',
-					effects: ['fade'],
-					easing: 'snap',
-					// call the hover effect
-					onMixEnd: filterList.hoverEffect()
-				});
-			
-			},
-			
-			hoverEffect: function () {
-			
-				// Simple parallax effect
-				$('#portfoliolist .portfolio').hover(
-					function () {
-						$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-						$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');
-					},
-					function () {
-						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');
-					}
-				);
-			}
-		};
-		
-		// Run the show!
-		filterList.init();
-	});	
-	</script>
-
 </head>
 <body>
 	<!-- Header part Starts Here -->
 	<div class="header">
 		<div class="container">
 			<div class="logo">
-				<a href="index.html"><img src="images/coffeepodlogo3.png" /></a>
+				<a href="index.html"><img src="images/cp_rework-1.png" /></a>
 			</div>
 			<div class="menu">
-					<a class="toggleMenu" href="#"><img src="images/nav_icon.png" alt="" /> </a>
-					<ul class="nav" id="nav">
-					  <li><a href="#about" class="scroll">About</a></li>
-					  <li><a href="#instagram" class="scroll">Instagram</a></li>
-					  <li><a href="#coffee101" class="scroll">Coffee101</a></li>
-					  <li><a href="#footer" class="scroll">Contact</a></li>
-					 </ul>
-					<script type="text/javascript" src="js/responsive-nav.js"></script>
-					<script type="text/javascript" src="js/move-top.js"></script>
-					<script type="text/javascript" src="js/easing.js"></script>
-					<script type="text/javascript">
+				<a class="toggleMenu" href="#"><img src="images/nav_icon.png" alt="" /> </a>
+				<ul class="nav" id="nav">
+					<li><a href="#about" class="scroll">About</a></li>
+					<li><a href="#instagram" class="scroll">Instagram</a></li>
+					<li><a href="#coffee101" class="scroll">Coffee101</a></li>
+					<li><a href="#contact" class="scroll">Contact</a></li>
+				</ul>
+
+				<script type="text/javascript" src="js/responsive-nav.js"></script>
+				<script type="text/javascript" src="js/move-top.js"></script>
+				<script type="text/javascript" src="js/easing.js"></script>
+				<script type="text/javascript">
 					jQuery(document).ready(function($) {
 						$(".scroll").click(function(event){
 							event.preventDefault();
@@ -94,18 +54,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						});
 					});
 					</script>
-				</div>	
-				<div class="clearfix"> </div>
-				<div class="header-matter">
-					<h1>Welcome To <br> Provo's Coffee Pod</h1>
-					<!-- <div class="line"> -->
-					<!-- <a href="#footer" class="scroll" id="v&#45;exchange">V</a> -->
-					<!-- <p>Explore</p> -->
-					<!-- </div> -->
-				</div>
+			</div>
+			<div class="clearfix"> </div>
+			<div class="header-matter">
+				<h1>Welcome To <br> Provo's Coffee Pod</h1>
+			</div>
 		</div>
 	</div>
 	<!-- Header part Ends Here -->
+
 	<!-- About Us Starts Here -->
 	<div class="ourteam" id="about">
 		<div class="container">
@@ -115,29 +72,33 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<DIV class="row about-row">
 				<div class="col-md-4 about-row-column">
-					<i class="icon1"></i>
-					<h3><a href="#">Services</a></h3> <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p> </div> <div class="col-md-4 about-row-column"> <i class="icon2"></i> <h3><a href="#">Retina Display</a></h3> <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p> </div> <div class="col-md-4 about-row-column"> <i class="icon3"></i>
-					<h3><a href="#">Full Support</a></h3>
+					
+					<img src="images/coffepod_cup.png"  class="icon1" alt=""/>
+					<!-- <i class="icon1"></i> -->
+					<h3><a href="#">Simple Foods</a></h3> 
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p> 
+				</div> 
+				
+				<div class="col-md-4 about-row-column"> 
+					<img src="images/coffeepod_beans.png" class="icon2" alt=""/>
+					<!-- <i class="icon2"></i>  -->
+					<h3><a href="#">Coffee's & Teas</a></h3>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p> 
+					</div> 
+				
+					<div class="col-md-4 about-row-column">
+					       	<!-- <i class="icon3"></i> -->
+
+					<img src="images/coffeepod_taz.png" class="icon3" alt=""/>
+					<!-- <i class="icon2"></i>  -->
+					<h3><a href="#">Local Art & Wi-Fi</a></h3>
 					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
 				</div>
 			</DIV>
 		</div>
 	</div>
-
-	<!-- Twitter Feed Starts Here -->
-	<!-- <div class="ourteam" id="twitter"> -->
-	<!-- 	<div class="container"> -->
-	<!-- 		<!&#45;&#45; <div class="portfolio&#38;#45;top"> &#45;&#45;> -->
-	<!-- 		<div class="row team&#45;row"> -->
-	<!-- 			<h3>What we are doing on Twitter!</h3> -->
-        <!--  -->
-	<!-- 			<a class="twitter&#45;timeline" href="https://twitter.com/CoffeePod" data&#45;widget&#45;id="508504729945534466" width="520">Tweets by @CoffeePod</a> -->
-	<!-- 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter&#45;wjs");</script> -->
-	<!-- 		</div> -->
-	<!-- 	</div> -->
-	<!-- </div> -->
-
 	<!-- About Us Ends Here -->
+	
 	<!-- Portfolio Starts Here -->
 	<div class="portfolio" id="instagram">
 		<div class="container">
@@ -148,127 +109,113 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- SnapWidget -->
 		<script src="http://snapwidget.com/js/snapwidget.js"></script>
 		<iframe src="http://snapwidget.com/in/?u=Y29mZmVlcG9kfGlufDMwMHwzfDJ8fHllc3wyNXxub25lfG9uU3RhcnR8eWVzfHllcw==&ve=070914" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
-		<!-- 	<ul id="filters" class="clearfix"> -->
-		<!-- 				<li><span class="filter active" data&#45;filter="app card icon logo web">All</span></li> -->
-		<!-- 				<li><span class="filter" data&#45;filter="app">Design</span></li> -->
-		<!-- 				<li><span class="filter" data&#45;filter="card">Web</span></li> -->
-		<!-- 				<li><span class="filter" data&#45;filter="icon">Illustration</span></li> -->
-		<!-- 				<li><span class="filter" data&#45;filter="logo">Motion</span></li> -->
-		<!-- 			</ul> -->
-		<!-- 			<div id="portfoliolist"> -->
-		<!-- 			<div class="portfolio app mix_all" data&#45;cat="app" style="display: inline&#45;block; opacity: 1;"> -->
-		<!-- 				<div class="portfolio&#45;wrapper">		 -->
-		<!-- 					<a href="index.html" class="b&#45;link&#45;stripe b&#45;animate&#45;go  thickbox"> -->
-		<!-- 				     <img src="images/pic1.jpg" /><div class="b&#45;wrapper"><h2 class="b&#45;animate b&#45;from&#45;left    b&#45;delay03 "><img src="images/icon&#45;eye.png" alt=""/></h2> -->
-		<!-- 				  	<p class="b&#45;animate b&#45;from&#45;right    b&#45;delay03 ">Lorem ipsum dolor sit amet.<br><span class="m_4">Photography</span></p></div></a> -->
-		<!--                 </div> -->
-		<!-- 			</div>				 -->
-		<!-- 			<div class="portfolio icon mix_all" data&#45;cat="icon" style="display: inline&#45;block; opacity: 1;"> -->
-		<!-- 				<div class="portfolio&#45;wrapper">		 -->
-		<!-- 					<a href="index.html" class="b&#45;link&#45;stripe b&#45;animate&#45;go  thickbox"> -->
-		<!-- 				     <img src="images/pic2.jpg" /><div class="b&#45;wrapper"><h2 class="b&#45;animate b&#45;from&#45;left    b&#45;delay03 "><img src="images/icon&#45;eye.png" alt=""/></h2> -->
-		<!-- 				  	<p class="b&#45;animate b&#45;from&#45;right    b&#45;delay03 ">Lorem ipsum dolor sit amet.<br><span class="m_4">Photography</span></p></div></a> -->
-		<!--                 </div> -->
-		<!-- 			</div>		 -->
-		<!-- 			<div class="portfolio card mix_all" data&#45;cat="card" style="display: inline&#45;block; opacity: 1;"> -->
-		<!-- 				<div class="portfolio&#45;wrapper">		 -->
-		<!-- 					<a href="index.html" class="b&#45;link&#45;stripe b&#45;animate&#45;go  thickbox"> -->
-		<!-- 				     <img src="images/pic5.jpg" /><div class="b&#45;wrapper"><h2 class="b&#45;animate b&#45;from&#45;left    b&#45;delay03 "><img src="images/icon&#45;eye.png" alt=""/></h2> -->
-		<!-- 				  	<p class="b&#45;animate b&#45;from&#45;right    b&#45;delay03 ">Lorem ipsum dolor sit amet.<br><span class="m_4">Photography</span></p></div></a> -->
-		<!--                 </div> -->
-		<!-- 			</div>				 -->
-		<!-- 			<div class="portfolio logo mix_all" data&#45;cat="logo" style="display: inline&#45;block; opacity: 1;"> -->
-		<!-- 				<div class="portfolio&#45;wrapper">		 -->
-		<!-- 					<a href="index.html" class="b&#45;link&#45;stripe b&#45;animate&#45;go  thickbox"> -->
-		<!-- 				     <img src="images/pic3.jpg" /><div class="b&#45;wrapper"><h2 class="b&#45;animate b&#45;from&#45;left    b&#45;delay03 "><img src="images/icon&#45;eye.png" alt=""/></h2> -->
-		<!-- 				  	<p class="b&#45;animate b&#45;from&#45;right    b&#45;delay03 ">Lorem ipsum dolor sit amet.<br><span class="m_4">Photography</span></p></div></a> -->
-		<!--                 </div> -->
-		<!-- 			</div>	 -->
-		<!-- 			<div class="portfolio card mix_all" data&#45;cat="card" style="display: inline&#45;block; opacity: 1;"> -->
-		<!-- 				<div class="portfolio&#45;wrapper">		 -->
-		<!-- 					<a href="index.html" class="b&#45;link&#45;stripe b&#45;animate&#45;go  thickbox"> -->
-		<!-- 				     <img src="images/pic4.jpg" /><div class="b&#45;wrapper"><h2 class="b&#45;animate b&#45;from&#45;left    b&#45;delay03 "><img src="images/icon&#45;eye.png" alt=""/></h2> -->
-		<!-- 				  	<p class="b&#45;animate b&#45;from&#45;right    b&#45;delay03 ">Lorem ipsum dolor sit amet.<br><span class="m_4">Photography</span></p></div></a> -->
-		<!--                 </div> -->
-		<!-- 			</div>			 -->
-		<!-- 			<div class="portfolio app mix_all" data&#45;cat="app" style="display: inline&#45;block; opacity: 1;"> -->
-		<!-- 				<div class="portfolio&#45;wrapper">		 -->
-		<!-- 					<a href="index.html" class="b&#45;link&#45;stripe b&#45;animate&#45;go  thickbox"> -->
-		<!-- 				     <img src="images/pic6.jpg" /><div class="b&#45;wrapper"><h2 class="b&#45;animate b&#45;from&#45;left    b&#45;delay03 "><img src="images/icon&#45;eye.png" alt=""/></h2> -->
-		<!-- 				  	<p class="b&#45;animate b&#45;from&#45;right    b&#45;delay03 ">Lorem ipsum dolor sit amet.<br><span class="m_4">Photography</span></p></div></a> -->
-		<!--                 </div> -->
-		<!-- 			</div>	 -->
-		<!-- 		</div> -->
+
 		</div>
 	</div>
 	<!-- Portfolio Ends Here -->
-	<!-- Our Team Starts Here -->
-	<!-- <div class="ourteam" id="coffee101"> -->
-	<!-- 	<div class="container"> -->
-	<!-- 		<div class="row team&#45;row"> -->
-	<!-- 			<h3>Coffee 101</h3> -->
-	<!-- 			<div class="col&#45;md&#45;6 team&#45;row&#45;column"> -->
-	<!-- 				<img src="images/person1.png"  class="img&#45;responsive" alt=""/> -->
-	<!-- 				<h4><a href="#">Cosmo Kramer</a></h4> -->
-	<!-- 				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p> -->
-	<!-- 				<ul class="social"> -->
-	<!-- 					<li><i class="tw"></i></li> -->
-	<!-- 					<li><i class="ist"></i></li> -->
-	<!-- 				</ul> -->
-	<!-- 			</div> -->
-	<!-- 			<div class="col&#45;md&#45;6 team&#45;row&#45;column"> -->
-	<!-- 				<img src="images/person2.png"  class="img&#45;responsive" alt=""/> -->
-	<!-- 				<h4><a href="#">George Constanza</a></h4> -->
-	<!-- 				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p> -->
-	<!-- 				<ul class="social"> -->
-	<!-- 					<li><i class="tw"></i></li> -->
-	<!-- 				</ul> -->
-	<!-- 			</div> -->
-	<!-- 			<div class="clearfix"></div> -->
-	<!-- 		</div> -->
-	<!-- 	</div> -->
-	<!-- </div> -->
+
+	<!-- Our Team Starts Her -->
+	<div class="ourteam" id="coffee101">
+		<div class="container">
+			<div class="row team-row">
+				<h3>New To Coffee?</h3>
+				<p class="subheader">Coffee Basics 101</p>
+				<br>
+
+				<div class="col-md-4 team-row-column">
+					<h4 class="coffee_title"><a href="#">The Black Coffee</a></h4>
+					<hr class="star-light"/>
+					<ul class="coffee_list">
+						<li>1 Part Coffee</li>
+						<li>0 Parts Anything Else</li>
+					</ul>
+				</div>
+				<div class="col-md-4 team-row-column">
+					<h4 class="coffee_title"><a href="#">The Espresso</a></h4>
+					<hr class="star-light"/>
+					<ul class="coffee_list">
+						<li>1 Espresso Shot</li>
+					</ul>
+				</div>
+				<div class="col-md-4 team-row-column">
+					<h4 class="coffee_title"><a href="#">The Cappucinno</a></h4>
+					<hr class="star-light"/>
+					<ul class="coffee_list">
+						<li>1 Part Espresso</li>
+						<li>1 Part Hot Milk</li>
+						<li>Steamed Milk</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+
+			<div class="row team-row">
+				<div class="col-md-4 team-row-column">
+					<h4 class="coffee_title"><a href="#">The Latte</a></h4>
+					<hr class="star-light"/>
+					<ul class="coffee_list">
+						<li>1/3 Espresso</li>
+						<li>2/3 Milk</li>
+						<li>Topped With Milk Foam</li>
+					</ul>
+				</div>
+				<div class="col-md-4 team-row-column">
+					<h4 class="coffee_title"><a href="#">The Americano</a></h4>
+					<hr class="star-light"/>
+					<ul class="coffee_list">
+						<li>1/3 Espresso</li>
+						<li>2/3 Hot Water</li>
+					</ul>
+				</div>
+				<div class="col-md-4 team-row-column">
+					<h4 class="coffee_title"><a href="#">The Cappucinno</a></h4>
+					<hr class="star-light"/>
+					<ul class="coffee_list">
+						<li>1 Part Espresso</li>
+						<li>1 Part Hot Milk</li>
+						<li>Steamed Milk</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
 	<!-- Our Team Ends Here -->
+
 	<!-- Contact Starts Here -->
-	<!-- <div class="cobntact" id="contact"> -->
-	<!-- 	<div class="container"> -->
-	<!-- 		<div class="row contact&#45;row"> -->
-	<!-- 			<h3>Contact</h3> -->
-	<!-- 			<p>Please contact us with any comments!</p> -->
-	<!-- 			<div class="col&#45;md&#45;6 contact&#45;row&#45;column"> -->
-	<!-- 				<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"> -->
-	<!-- 				<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}"> -->
-	<!-- 				<div class="text2"> -->
-	<!--                    <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message..</textarea> -->
-	<!--               	 </div>	 -->
-	<!--               	 <div class="contact_btn"> -->
-	<!--                		<input name="submit" type="submit" id="submit" value="Submit"> -->
-	<!--                 </div> -->
-	<!-- 				</div> -->
-	<!-- 			<div class="col&#45;md&#45;6 contact&#45;row&#45;column"> -->
-	<!-- 				<div class="text"> -->
-	<!-- 					<h4>Address</h4> -->
-	<!-- 					<p>426 West 1230 North</p> -->
-	<!-- 					<small>Provo, UT 84606</small> -->
-	<!-- 				</div> -->
-	<!-- 				<div class="text"> -->
-	<!-- 					<h4>Email</h4> -->
-	<!-- 					<p><a href="#">info[at]kramer.com</a></p> -->
-	<!-- 				</div> -->
-	<!-- 				<div class="text"> -->
-	<!-- 					<h4>Phone</h4> -->
-	<!-- 					<p>(801) 341&#45;0022</p> -->
-	<!-- 				</div> -->
-	<!-- 			</div> -->
-	<!-- 							 -->
-	<!-- 		</div> -->
-	<!-- 	</div> -->
-	<!-- </div> -->
+	<div class="contact" id="contact">
+		<div class="container">
+			<div class="row contact-row">
+				<h3>Drop us a line</h3>
+				<p class="subheader">We would love to hear from you.</p>
+				<br>
+				<div class="col-md-6 contact-row-column">
+					<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+					<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+				<div class="text2">
+	                   	<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message..</textarea>
+	              	 		</div>	
+	              	 	<div class="contact_btn pull-right">
+	               			<input name="submit" type="submit" id="submit" value="Submit">
+	                	</div>
+			</div>
+			<div class="col-md-6 contact-row-column">
+
+			<!-- Google Map -->
+			<iframe
+	    			width="500"
+            			height=400"
+            			src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD4g2bMqeowbLour4Lj933Ch6w3DOwVJ38&q=Coffee+Pod,Provo+UTA">
+			</iframe>
+			</div>
+		</div>
+	</div>
 	<!-- Contact Ends Here -->
+
 	<!-- Footer Starts Here -->
 	<div class="footer" id="footer">
 		<div class="container">
-			<a href="index.html"><img src="images/coffeepodlogo3.png" /></a>
+			<a href="index.html"><img src="images/cp_rework_small.png" /></a>
 			<div class="row footer-row">
 				<div class="col-md-4 footer-row-column">
 						<div class="text1">
@@ -291,26 +238,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="clearfix"></div>
 			</div>
-			<p class="copyright">2014 &copy; Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+			<p class="copyright">2008 - 2014 &copy;</p>
 			<script type="text/javascript">
 						$(document).ready(function() {
-							/*
 							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear' 
+					  			containerid: 'toTop', // fading element id
+								containerhoverid: 'toTopHover', // fading element hover id
+								scrollspeed: 1200,
+								easingtype: 'easeInOutQuart'
 					 		};
-							*/
-							
-							$().UItoTop({ easingType: 'easeOutQuart' });
-							
+
+							$().UItoTop(defaults);
 						});
 					</script>
 				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 		</div>
 	</div>
-	<!-- Footer Ends Here -->
+	<!-- footer ends here -->
 </body>
 </html>

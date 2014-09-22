@@ -1145,3 +1145,10 @@ hr.star-primary:after {
 
 
 /*--- Media Queries Ends Here---*/
+
+#response { 
+	font-size: 1.8em;
+	margin-top: -40px;
+	color: red;
+	text-align: left;
+}

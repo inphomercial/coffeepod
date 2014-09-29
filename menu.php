@@ -48,7 +48,7 @@ $menu = array(
 			"24oz" => 3.80
 		),
 		"Coffee Refill" => array(
-			"desc" => "",
+			"desc" => "Dark, Medium, Flavored, Decaf & Highlander Grogg",
 			"12oz" => 1.25,
 			"16oz" => 1.35,
 			"20oz" => 1.45,
@@ -137,59 +137,71 @@ $menu = array(
 		        "20oz" => 3.19,
 		),
 		"Apple Cider" => array(
+			"desc" => "Bold Spiced Cider",
+			"8oz" => 1.99,
+			"12oz" => 2.69,
+			"16oz" => 2.99,
+			"20oz" => 3.29,
+			"24oz" => 3.59
 		),
 		"Pero" => array(
+			"desc" => "A Natural Coffee Substitue (Caffeine Free)",
+			"12oz" => 2.69,
+			"16oz" => 2.99,
+			"20oz" => 3.29,
+			"24oz" => 3.59
 		)
 	),
 	"Frappes & Cold Drinks" => array(
 		"Frappe" => array(
 			"desc" => "Available in milk or white chocolate, with or w/o coffee",
-			"12oz" => 0,
-			"16oz" => 0,
-		        "20oz" => 0,
-			"24oz" => 0
+			"12oz" => 4.00,
+			"16oz" => 4.30,
+		        "20oz" => 4.70,
+			"24oz" => 5.00
 		),
 		"Green Matcha Frappe" => array(
-			"desc" => "",
-			"12oz" => 0,
-			"16oz" => 0,
-		        "20oz" => 0,
-			"24oz" => 0
+			"desc" => "Half Coffee, Half Milk",
+			"12oz" => 3.75,
+			"16oz" => 4.00,
+		        "20oz" => 4.25,
+			"24oz" => 4.50
 		),
 		"Italian Soda" => array(
 			"desc" => "Flavored Soda Water",
-			"12oz" => 0,
-			"16oz" => 0,
-		        "20oz" => 0,
-			"24oz" => 0
+			"12oz" => 2.20,
+			"16oz" => 2.50,
+		        "20oz" => 2.80,
+			"24oz" => 3.10
 		),
 		"Cream Soda" => array(
 			"desc" => "Italian soda with added cream",
-			"12oz" => 0,
-			"16oz" => 0,
-		        "20oz" => 0,
-			"24oz" => 0
+			"12oz" => 2.45,
+			"16oz" => 2.75,
+		        "20oz" => 3.05,
+			"24oz" => 3.35
 		),
 		"POD Slush" => array(
 			"desc" => "Banana, Pina-Colada, Strawberry, Mango, Peach & Lemon Ice",
-			"12oz" => 0,
-			"16oz" => 0,
-		        "20oz" => 0,
-			"24oz" => 0
+			"12oz" => 3.40,
+			"16oz" => 3.70,
+		        "20oz" => 4.00,
+			"24oz" => 4.30
 		),
 		"Thai Tea Frappe" => array(
-			"desc" => "",
-			"12oz" => 0,
-			"16oz" => 0,
-		        "20oz" => 0,
-			"24oz" => 0
+			"desc" => "Current Special",
+			"12oz" => 3.75,
+			"16oz" => 4.00,
+		        "20oz" => 4.25,
+			"24oz" => 4.50
 		)
 	),
 	"Fresh Squeezed Juice" => array(
 		"desc" => "Apple, Orange, Grapefruit or Carrot",
-		"12oz" => 0,
-		"16oz" => 0,
-		"20oz" => 0
+		"12oz" => 4.00,
+		"16oz" => 4.70,
+		"20oz" => 5.40
+		"24oz" => 6.10
 	),
 	"Simple Foods" => array(
 		"Muffins" => 1.99,

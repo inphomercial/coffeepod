@@ -200,7 +200,7 @@ $menu = array(
 		"desc" => "Apple, Orange, Grapefruit or Carrot",
 		"12oz" => 4.00,
 		"16oz" => 4.70,
-		"20oz" => 5.40
+		"20oz" => 5.40,
 		"24oz" => 6.10
 	),
 	"Simple Foods" => array(

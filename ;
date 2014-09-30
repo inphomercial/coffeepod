@@ -851,12 +851,7 @@ p.copyright a:hover{
 	#filters li span {
 		font-size: 23px;
 	}
-	.google_map {
-		width: 500px;
-		height: 400px;
-	}
 }
-
 @media (max-width:800px){
 	.logo {
 		background-image: url("../images/cp_rework-1.png") !important;
@@ -872,9 +867,6 @@ p.copyright a:hover{
 	}
 	.line {
 		top: 81%;
-	}
-	.google_map {
-		margin-bottom: 40px;
 	}
 	.about-para p {
 		font-size: 16px;
@@ -976,10 +968,6 @@ p.copyright a:hover{
 	}
 	.header-matter {
 	}
-	.google_map {
-		width: 500px;
-		height: 400px;
-	}
 }
 @media (max-width:640px){
 	.logo {
@@ -1021,9 +1009,6 @@ p.copyright a:hover{
 	}
 	.contact_btn {
 		padding-bottom: 25px;
-	}
-	.google_map {
-		display: none;
 	}
 }
 @media (max-width:480px){

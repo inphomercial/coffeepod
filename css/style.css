@@ -574,6 +574,11 @@ ul li.list_sub {
 }
 h4.coffee_title{
 	text-align:center;
+	color:#fff;
+	font-weight: 700;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 26px;
+	text-decoration:none;
 }
 ul.social li{
 	display:inline-block;

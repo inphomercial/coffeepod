@@ -41,7 +41,7 @@ $menu = array(
 			"24oz" => 2.25
 		),
 		"Shot In The Dark" => array(
-			"desc" => "Any drip coffee & espresso",
+			"desc" => "Any drip coffee with shots of espresso",
 			"12oz" => 2.00,
 			"16oz" => 2.60,
 			"20oz" => 3.20,
@@ -64,14 +64,14 @@ $menu = array(
 			"24oz" => 3.00
 		),
 		"White Mocha" => array(
-			"desc" => "Espresso, milk & white cholocate",
+			"desc" => "Espresso milk & white cholocate",
 			"12oz" => 1.80,
 			"16oz" => 2.20,
 		        "20oz" => 2.60,
 			"24oz" => 3.00
 		),
 		"Mexi Mocha" => array(
-			"desc" => "Espresso, milk & Mexican cholocate",
+			"desc" => "Espresso, milk & Mexican spice cholocate",
 			"12oz" => 1.80,
 			"16oz" => 2.20,
 		        "20oz" => 2.60,
@@ -157,42 +157,42 @@ $menu = array(
 			"desc" => "Available in milk or white chocolate, with or w/o coffee",
 			"12oz" => 4.00,
 			"16oz" => 4.30,
-		        "20oz" => 4.70,
+		    "20oz" => 4.70,
 			"24oz" => 5.00
 		),
 		"Green Matcha Frappe" => array(
-			"desc" => "Half Coffee, Half Milk",
+			"desc" => "",
 			"12oz" => 3.75,
 			"16oz" => 4.00,
-		        "20oz" => 4.25,
+		    "20oz" => 4.25,
 			"24oz" => 4.50
 		),
 		"Italian Soda" => array(
-			"desc" => "Flavored Soda Water",
+			"desc" => "Flavored Soda Water, your choice of flavor(s)",
 			"12oz" => 2.20,
 			"16oz" => 2.50,
-		        "20oz" => 2.80,
+		    "20oz" => 2.80,
 			"24oz" => 3.10
 		),
 		"Cream Soda" => array(
 			"desc" => "Italian soda with added cream",
 			"12oz" => 2.45,
 			"16oz" => 2.75,
-		        "20oz" => 3.05,
+		    "20oz" => 3.05,
 			"24oz" => 3.35
 		),
 		"POD Slush" => array(
 			"desc" => "Banana, Pina-Colada, Strawberry, Mango, Peach & Lemon Ice",
 			"12oz" => 3.40,
 			"16oz" => 3.70,
-		        "20oz" => 4.00,
+		    "20oz" => 4.00,
 			"24oz" => 4.30
 		),
 		"Thai Tea Frappe" => array(
 			"desc" => "Current Special",
 			"12oz" => 3.75,
 			"16oz" => 4.00,
-		        "20oz" => 4.25,
+		    "20oz" => 4.25,
 			"24oz" => 4.50
 		)
 	),
